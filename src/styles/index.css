@@ -14,13 +14,15 @@ display: flex;
   justify-content: center; 
   align-items: center;     
   height: 100vh;
-
 }
 body{   
     background-color: black;
 }
 span{
-    margin-top: 8px;
+    color: red;
+    margin-top: 10%;
+    font-size: 40px;
+    margin-right: 1%;
 }
 
 div{

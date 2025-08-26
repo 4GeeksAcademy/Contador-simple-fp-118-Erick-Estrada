@@ -8,8 +8,8 @@ import SecondsCounter from "./SecondsCounter";
 const Home = ({ timer }) => {
 	return (
 		
-		<div className="text-center d-flex justify-content-center bg-dark p-3 border border-danger">
-			<span>🕗</span>
+		<div className="text-center d-flex justify-content-center bg-dark p-4 border border-danger">
+			<span class="fa-regular fa-clock fa-bounce"></span>
 			<SecondsCounter value={Math.floor(timer / 100000)} />
 			<SecondsCounter value={Math.floor(timer / 10000)} />
 			<SecondsCounter value={Math.floor(timer / 1000)} />
