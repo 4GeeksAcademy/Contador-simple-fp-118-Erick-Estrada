@@ -9,3 +9,21 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#root{
+display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;
+
+}
+body{   
+    background-color: black;
+}
+span{
+    margin-top: 8px;
+}
+
+div{
+    border-radius: 10px;
+    padding: 1%;
+}
